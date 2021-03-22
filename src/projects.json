@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Farming App (OSRS)",
+    "builttext": "React, Node.js, Express, JavaScript, Docker, AWS, JSON",
+    "abouttext": "An inventory generator that that allows users to find their optimum inventory for a farming run. It scrapes their farming level from the Osrs Highscores API, then checks a database of patches, seeds and teleports to deliver their optimal route and inventory. Supports oAuth for sharing with friends.",
+    "icon": "farmingicon",
+    "livelink": "https://github.com/tuliotroche/farming",
+    "github": "https://github.com/tuliotroche/farmingapp",
+    "photo": "https://media2.giphy.com/media/K2g83n6kzUlUI/giphy.gif?cid=ecf05e477uuyc43pz09ca3bs95gk3a4axkgv75dkquwe6zre&rid=giphy.gif"
+  },
+  {
+    "title": "Portfolio Website",
+    "builttext": "React, Edited HTML5Up Template, JSON",
+    "abouttext": "This website was built to help customers and recruiters quickly find relevant experience and see previous projects. ",
+    "icon": "farmingicon",
+    "livelink": "#",
+    "github": "https://github.com/tuliotroche/portfolio",
+    "photo": "portfolioscreenshot.JPG"
+  }
+]
