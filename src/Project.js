@@ -5,8 +5,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 const Project = ({ title, builttext, abouttext, icon, livelink, github, photo }) => {
-    const iconimage = require(`./icons/${icon}.png`);
-
     return (
         <div className="spotlight">
             <div className="content">
@@ -17,7 +15,7 @@ const Project = ({ title, builttext, abouttext, icon, livelink, github, photo })
                 <p>{abouttext}</p>
                 <ul className="actions">
                     <li><a href={livelink} target="_blank" className="button">
-                        <img src={iconimage} className="icon" alt={'(icon)'}/> Live App</a>
+                        <img src={`/icons/${icon}.png`} className="icon" alt={'(icon)'}/> Live App</a>
                     </li>
                     <li><a href={github} target="_blank" className="button">
                         <FontAwesomeIcon icon={faGithub} />
@@ -25,7 +23,7 @@ const Project = ({ title, builttext, abouttext, icon, livelink, github, photo })
                 </ul>
             </div>
             <span className="image"><a href={livelink}><img
-                src={photo}
+                src={`/images/${photo}.gif`}
                 alt=""/></a></span>
         </div>
     )

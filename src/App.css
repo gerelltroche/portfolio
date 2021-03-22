@@ -4,11 +4,12 @@
   height: 20vmin;
   pointer-events: none;
   float: left;
+  padding-bottom: 5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 1.5s alternate;
+    animation: App-logo-spin infinite 1s alternate;
   }
 }
 
@@ -17,6 +18,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(2.5deg);
+    transform: rotate(0deg);
   }
 }

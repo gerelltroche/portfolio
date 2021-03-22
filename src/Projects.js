@@ -2,7 +2,6 @@ import React from "react";
 import './main.css';
 import Project from './Project';
 
-
 const Projects = ({ projects }) => {
     return (
         <div>
