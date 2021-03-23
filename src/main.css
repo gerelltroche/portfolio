@@ -2981,8 +2981,9 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 		padding-top: 5em;
+		margin-left: 3em;
 	}
 
 		.spotlight .content {
@@ -3224,8 +3225,8 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: inherit;
+		max-width: calc(100%);
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -3326,14 +3327,11 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 736px) {
-
 			#nav {
-				display: none;
 			}
-
-				#nav + #main {
-					padding-top: 0;
-				}
+			#nav + #main {
+				padding-top: 0;
+			}
 
 		}
 
@@ -3343,8 +3341,12 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
-		margin-left: .5em;
-		margin-right: .5em;
+	}
+	@media only screen and (min-width: 1000px) {
+		#main {
+			margin-left: 5em;
+			margin-right: 5em;
+		}
 	}
 		#projects {
 			margin-top: 1em;

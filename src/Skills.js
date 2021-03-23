@@ -16,7 +16,7 @@ const Skills = () => {
                 <strong>Node.js</strong>
             </li>
             <li className="style2">
-                ><FontAwesomeIcon icon={faJs} />
+                <FontAwesomeIcon icon={faJs} />
                 <strong>JavaScript</strong>ES6
             </li>
             <li className="style3">
